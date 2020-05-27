@@ -117,5 +117,12 @@ source $ZSH/oh-my-zsh.sh
 bindkey  "^[[H"   beginning-of-line
 bindkey  "^[[F"   end-of-line
 
+alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias sshnas='ssh root@192.168.178.5'
 alias chWal='wal --iterative -i ~/Pictures/Wallpaper'
+
+#export FZF_DEFAULT_OPTS='--height 60% --layout=reverse --border'
+export FZF_DEFAULT_OPTS="--layout=reverse --preview 'bat --style=numbers --color=always {} | head -500' --keep-right"
+export FZF_DEFAULT_COMMAND='find .'
+
+
