@@ -1,9 +1,9 @@
 swipe:
   3:
     left:
-      command: "xdotool key alt+Right" # History forward 
+      command: "xdotool key alt+Left" # History forward 
     right:
-      command: "xdotool key alt+Left" # History back
+      command: "xdotool key alt+Right" # History back
     up:
       command: "xdotool key super+f" # fullscreentoggle 
     down:

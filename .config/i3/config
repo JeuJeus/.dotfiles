@@ -1,4 +1,4 @@
-o i3 config file (v4)
+# i3 config file (v4)
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
@@ -18,6 +18,10 @@ exec --no-startup-id glipper
 
 # start unclutter - mouse cursor hiding
 exec --no-startup-id unclutter
+
+# start fusuma / multitouch
+#TODO move
+exec_always --no-startup-id sh -c "pkill fusuma; fusuma -d"
 
 set $mod Mod4
 
