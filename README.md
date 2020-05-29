@@ -1,5 +1,5 @@
 # .dotfiles
-My dotfiles used on my arch install. 
+My dotfiles used on my Arch install. 
 
 ## Setup:
 - WM: i3-gaps
