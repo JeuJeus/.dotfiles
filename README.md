@@ -13,7 +13,7 @@ Setup:
 - Clipboard Manager: glipper
 - File Sync: Syncthing (gtk)
 - File Manager: Nautilus
-- Theming: Pywal (Colors), Arc-Dark (Theme), Papirus (Icons), Hack + FA patched (Font+Icons)
+- Theming: Pywal (Colors), Arc-Dark (Theme), Papirus (Icons), Hack + NF patched (Font+Icons)
 - Misc: unclutter (cursor hiding), fusuma (multitouch), Screenshots (gnome-screenshot)
 
 
