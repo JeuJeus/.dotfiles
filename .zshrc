@@ -125,4 +125,5 @@ alias chWal='wal --iterative -i ~/Pictures/Wallpaper'
 export FZF_DEFAULT_OPTS="--layout=reverse --preview 'bat --style=numbers --color=always {} | head -500' --keep-right"
 export FZF_DEFAULT_COMMAND='find .'
 
-
+#Add Z
+[[ -r /usr/share/z/z.sh ]] && source /usr/share/z/z.sh

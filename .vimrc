@@ -1,8 +1,6 @@
 set number	
+set wrap
 set linebreak
-set nowrap
-set showbreak=+++ 	
-set textwidth=100	
 set showmatch
 set visualbell	
 set laststatus=2
