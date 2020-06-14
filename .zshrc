@@ -119,6 +119,7 @@ bindkey  "^[[F"   end-of-line
 
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias sshnas='ssh root@192.168.178.5'
+alias sem4='cd ~/Documents/FHDW/Semester/Semester-4'
 alias chWal='wal --iterative -i ~/Pictures/Wallpaper'
 
 #export FZF_DEFAULT_OPTS='--height 60% --layout=reverse --border'
