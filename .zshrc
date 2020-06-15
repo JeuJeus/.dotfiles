@@ -118,7 +118,7 @@ bindkey  "^[[H"   beginning-of-line
 bindkey  "^[[F"   end-of-line
 
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-alias sshnas='ssh root@192.168.178.5'
+alias sshnas='ssh -i ~/.ssh/x380@nas root@192.168.178.5'
 alias sem4='cd ~/Documents/FHDW/Semester/Semester-4'
 alias chWal='wal --iterative -i ~/Pictures/Wallpaper'
 
