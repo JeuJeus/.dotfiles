@@ -20,7 +20,6 @@ exec --no-startup-id glipper
 exec --no-startup-id unclutter
 
 # start fusuma / multitouch
-#TODO move
 exec_always --no-startup-id sh -c "pkill fusuma; fusuma -d"
 
 set $mod Mod4
@@ -153,6 +152,10 @@ bindsym $mod+Shift+8 move container to workspace number $ws8
 bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
 
+# switch to next/previous workspace
+bindsym $mod+Tab workspace next
+bindsym $mod+Shift+Tab workspace prev
+
 # reload the configuration file
 bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
@@ -212,6 +215,9 @@ bindsym Control+Mod1+e exec nautilus
 
 # Change Colorscheme
 bindsym Control+Mod1+w exec_always 'wal --iterative -i $wallpaper'
+
+# Open FZF
+bindsym Control+Mod1+z exec gnome-terminal -e "fzf --layout=reverse --preview 'bat --style=numbers --color=always {} | head -500' --keep-right"
 
 set_from_resource $fg i3wm.color7 #f0f0f0
 set_from_resource $bg i3wm.color2 #f0f0f0

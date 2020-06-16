@@ -8,3 +8,10 @@ swipe:
       command: "xdotool key super+f" # fullscreentoggle 
     down:
       command: "xdotool key super+f" # fullscreentoggle
+  4:
+    left:
+      command: "xdotool key super+shift+Tab" # previous workspace
+    right:
+      command: "xdotool key super+Tab" # next workspace
+      
+
