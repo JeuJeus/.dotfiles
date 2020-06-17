@@ -1,6 +1,8 @@
 # .dotfiles
 The dotfiles used on my Arch install. 
 
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+
 ## Setup:
 - WM: i3-gaps
 - Bar: Polybar
