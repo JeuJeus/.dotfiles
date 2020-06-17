@@ -209,6 +209,7 @@ bindsym Control+Mod1+k exec keepassxc
 
 # Open Firefox
 bindsym Control+Mod1+f exec firefox
+bindsym Control+Mod1+p exec firefox -private-window
 
 # Open Nautilus
 bindsym Control+Mod1+e exec nautilus
