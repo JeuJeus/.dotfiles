@@ -13,7 +13,7 @@ exec_always --no-startup-id wal --iterative -i $wallpaper
 # start Syncthing
 exec --no-startup-id syncthing-gtk
 
-# start glpper - clipboarde
+# start glipper - clipboarde
 exec --no-startup-id glipper
 
 # start unclutter - mouse cursor hiding
@@ -99,9 +99,9 @@ bindsym $mod+v split v
 bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
-bindsym $mod+s layout stacking
-bindsym $mod+w layout tabbed
-bindsym $mod+e layout toggle split
+#bindsym $mod+s layout stacking
+#bindsym $mod+w layout tabbed
+#bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
@@ -163,7 +163,7 @@ bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
-# custom blurred lockscreen
+# call lightdm locker 
 bindsym $mod+Shift+x exec dm-tool lock 
 
 # resize window (you can also use the mouse for that)
@@ -200,7 +200,7 @@ bindsym $mod+r mode "resize"
 #}
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
-# Screen Shots
+# Screenshots
 # bindsym Print exec scrot '%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f ~/Pictures/'
 bindsym Shift+Print exec gnome-screenshot -i
 
