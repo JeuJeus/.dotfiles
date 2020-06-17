@@ -19,7 +19,6 @@ The dotfiles used on my Arch install.
 
 ## Screnshots:
 ![Screenshot](https://raw.githubusercontent.com/JeuJeus/.dotfiles/master/Screenshots/Screenshot%20from%202020-06-15%2021-34-40.png)
-![Screenshot](https://raw.githubusercontent.com/JeuJeus/.dotfiles/master/Screenshots/Screenshot%20from%202020-05-19%2014-30-42.png)
 ![Screenshot](https://raw.githubusercontent.com/JeuJeus/.dotfiles/master/Screenshots/Screenshot%20from%202020-05-19%2014-31-08.png)
 ![Screenshot](https://raw.githubusercontent.com/JeuJeus/.dotfiles/master/Screenshots/Screenshot%20from%202020-05-19%2014-31-31.png)
 ![Screenshot](https://raw.githubusercontent.com/JeuJeus/.dotfiles/master/Screenshots/Screenshot%20from%202020-05-19%2014-31-48.png)
@@ -27,4 +26,5 @@ The dotfiles used on my Arch install.
 ![Screenshot](https://raw.githubusercontent.com/JeuJeus/.dotfiles/master/Screenshots/Screenshot%20from%202020-05-19%2014-33-32.png)
 ![Screenshot](https://raw.githubusercontent.com/JeuJeus/.dotfiles/master/Screenshots/Screenshot%20from%202020-05-19%2014-33-50.png)
 ![Screenshot](https://raw.githubusercontent.com/JeuJeus/.dotfiles/master/Screenshots/Screenshot%20from%202020-05-19%2014-35-33.png)
+![Screenshot](https://raw.githubusercontent.com/JeuJeus/.dotfiles/master/Screenshots/Screenshot%20from%202020-05-19%2014-30-42.png)
 
