@@ -46,3 +46,7 @@ vnoremap <Down> <Nop>
 vnoremap <Left> <Nop>
 vnoremap <Right> <Nop>
 vnoremap <Up> <Nop>
+
+" gvim needs to be installed in order for this to work
+vnoremap <C-c> "+y
+map <C-v> "+p
