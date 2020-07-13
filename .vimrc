@@ -50,3 +50,6 @@ vnoremap <Up> <Nop>
 " gvim needs to be installed in order for this to work
 vnoremap <C-c> "+y
 map <C-v> "+p
+
+" allow sudoediting files afterwards
+map<w!!> :w !sudo tee %
