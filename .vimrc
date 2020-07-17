@@ -6,6 +6,7 @@ set visualbell
 set laststatus=2
 set title
 set background=dark
+syntax on
 
 set hlsearch
 set smartcase	
@@ -53,3 +54,6 @@ map <C-v> "+p
 
 " allow sudoediting files afterwards
 map<w!!> :w !sudo tee %
+
+" requires vim-colorschemes aur package to be installed
+colorscheme onedark
