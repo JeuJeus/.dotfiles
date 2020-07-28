@@ -13,8 +13,8 @@ exec_always --no-startup-id wal --iterative -i $wallpaper
 # start Syncthing
 exec --no-startup-id syncthing-gtk
 
-# start glipper - clipboarde
-exec --no-startup-id glipper
+# start qlipper - clipboarde
+exec --no-startup-id qlipper
 
 # start unclutter - mouse cursor hiding
 exec --no-startup-id unclutter
