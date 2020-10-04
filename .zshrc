@@ -118,9 +118,11 @@ bindkey  "^[[H"   beginning-of-line
 bindkey  "^[[F"   end-of-line
 
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-alias sshnas='ssh -i ~/.ssh/x380@nas root@192.168.178.5'
+alias sshnas='ssh -i ~/.ssh/x380@nas jeujeus@192.168.178.5'
 alias sem4='cd ~/Documents/FHDW/Semester/Semester-4'
 alias chWal='wal --iterative -i ~/Pictures/Wallpaper'
+alias fefe='w3m blog.fefe.de'
+alias cdsem5='cd /home/jeujeus/Documents/FHDW/Semester/Semester-5'
 
 #export FZF_DEFAULT_OPTS='--height 60% --layout=reverse --border'
 export FZF_DEFAULT_OPTS="--layout=reverse --preview 'bat --style=numbers --color=always {} | head -500' --keep-right"
@@ -128,3 +130,6 @@ export FZF_DEFAULT_COMMAND='find .'
 
 #Add Z
 [[ -r /usr/share/z/z.sh ]] && source /usr/share/z/z.sh
+
+source /home/jeujeus/.config/broot/launcher/bash/br
+export HISTCONTROL=ignorespace
