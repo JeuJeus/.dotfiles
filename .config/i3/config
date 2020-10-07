@@ -5,11 +5,6 @@
 # load German Keyboard Layout
 exec "setxkbmap -layout de"
 
-# set Background
-set $wallpaper '/home/jeujeus/Pictures/Wallpaper'
-exec --no-startup-id compton
-exec_always --no-startup-id wal --iterative -i $wallpaper
-
 # start Syncthing
 exec --no-startup-id syncthing-gtk
 
@@ -63,7 +58,7 @@ bindsym $mod+Return exec gnome-terminal
 bindsym $mod+Shift+q kill
 
 # start rofi
-bindsym $mod+d exec "rofi -combi-modi window,drun -font 'hack 10' -show combi -icon-theme 'Papirus' -show-icons"
+bindsym $mod+d exec "rofi -combi-modi window,drun -font 'hack 10' -show combi"
 
 # change focus
 bindsym $mod+j focus left
@@ -195,10 +190,10 @@ bindsym $mod+r mode "resize"
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
-#bar {
-#        status_command i3blocks
-#}
-exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+bar {
+        status_command i3status
+	font pango:Hack 9
+}
 
 # Screenshots
 # bindsym Print exec scrot '%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f ~/Pictures/'
@@ -214,20 +209,6 @@ bindsym Control+Mod1+p exec firefox -private-window
 # Open Nautilus
 bindsym Control+Mod1+e exec nautilus
 
-# Change Colorscheme
-bindsym Control+Mod1+w exec_always 'wal --iterative -i $wallpaper'
-
 # Open FZF
 bindsym Control+Mod1+z exec gnome-terminal -e "fzf --layout=reverse --preview 'bat --style=numbers --color=always {} | head -500' --keep-right"
 
-set_from_resource $fg i3wm.color7 #f0f0f0
-set_from_resource $bg i3wm.color2 #f0f0f0
-
-# class                 border  backgr. text indicator child_border
-client.focused          $fg     $bg     $fg  $fg       $fg
-client.focused_inactive $bg     $bg     $fg  $bg       $bg
-client.unfocused        $bg     $bg     $fg  $bg       $bg
-client.urgent           $bg     $bg     $fg  $bg       $bg
-client.placeholder      $bg     $bg     $fg  $bg       $bg
-
-client.background       $bg
