@@ -5,7 +5,7 @@ The dotfiles used on my Arch install.
 
 ## Setup:
 - WM: i3-gaps
-- Bar: Polybar
+- Bar: i3-status (default)
 - Terminal: Gnome-Terminal
 - Shell: ZSH (with Oh-My-ZSH , p10k)
 - FuzzyFinder: fzf
