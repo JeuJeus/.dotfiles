@@ -22,3 +22,5 @@ The dotfiles used on my Arch install.
 ## Screnshots:
 In contrast to the master-branch, this one completly lacks the fancy ricing. No rice for the wicked!
 ![Screenshot](https://raw.githubusercontent.com/JeuJeus/.dotfiles/noRice/Screenshots/Screenshot%20from%202020-10-21%2015-39-02.png)
+![Screenshot](https://raw.githubusercontent.com/JeuJeus/.dotfiles/noRice/Screenshots/Screenshot%20from%202020-10-22%2009-37-43.png)
+
