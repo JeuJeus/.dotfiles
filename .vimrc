@@ -52,9 +52,12 @@ colorscheme onedark
 
 "VIM PLUGIN MANAGEMENT
 call plug#begin()
+Plug 'skywind3000/asyncrun.vim'
 Plug 'preservim/NERDTree'
+Plug 'conornewton/vim-pandoc-markdown-preview'
 Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 Plug 'itchyny/lightline.vim'
+Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
 call plug#end()
 
 " NERDTree
