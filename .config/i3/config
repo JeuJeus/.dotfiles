@@ -188,12 +188,8 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-# Start i3bar to display a workspace bar (plus the system information i3status
-# finds out, if available)
-bar {
-        status_command i3status
-	font pango:Hack 9
-}
+# Start Polybar
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # Screenshots
 # bindsym Print exec scrot '%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f ~/Pictures/'
@@ -210,5 +206,6 @@ bindsym Control+Mod1+p exec firefox -private-window
 bindsym Control+Mod1+e exec nautilus
 
 # Open FZF
-bindsym Control+Mod1+z exec gnome-terminal -e "fzf --layout=reverse --preview 'bat --style=numbers --color=always {} | head -500' --keep-right"
+# find other hotkey - collides with intellij
+#bindsym Control+Mod1+z exec gnome-terminal -e "fzf --layout=reverse --preview 'bat --style=numbers --color=always {} | head -500' --keep-right"
 
