@@ -8,15 +8,15 @@ In contrast to the master-branch, this one completly lacks the fancy ricing. No 
 - WM: i3-gaps
 - Bar: i3-status (default)
 - Terminal: Gnome-Terminal
-- Shell: ZSH (with Oh-My-ZSH , p10k)
-- Vim: Vim with vim-plug: nerdtree, coc, lightline
+- Shell: ZSH (with Oh-My-ZSH , p10k, vi-mode)
+- Vim: Vim with vim-plug: nerdtree, coc, lightline, markdown+latex live preview
 - FuzzyFinder: fzf
 - Application Runner: Rofi
 - Notifications: Dunst
 - Login-/LockScreen: LightDM
 - Clipboard Manager: glipper
 - File Sync: Syncthing (gtk)
-- File Manager: Nautilus
+- File Manager: Nautilus / br
 - Theming: Arc-Dark (Theme), Papirus (Icons), Hack + NF patched (Font+Icons)
 - Misc: unclutter (cursor hiding), fusuma (multitouch), Screenshots (gnome-screenshot)
 
@@ -26,13 +26,13 @@ In contrast to the master-branch, this one completly lacks the fancy ricing. No 
 - DE: Gnome
 - WM: Mutter
 - Terminal: Gnome-Terminal
-- Shell: ZSH (with Oh-My-ZSH , p10k)
-- Vim: Vim with vim-plug: nerdtree, coc, lightline
+- Shell: ZSH (with Oh-My-ZSH , p10k, vi-mode)
+- Vim: Vim with vim-plug: nerdtree, coc, lightline, markdown+latex live preview
 - FuzzyFinder: fzf
 - Login-/LockScreen: gdm
 - Clipboard Manager: qlipper
 - File Sync: Syncthing (gtk)
-- File Manager: Nautilus
+- File Manager: Nautilus / br
 - Theming: Arc-Dark (Theme+Shelltheme), Papirus (Icons), Hack + NF patched (Font+Icons)
 - Misc: Screenshots (gnome-screenshot)
 
