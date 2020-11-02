@@ -1,4 +1,5 @@
-set number	
+set relativenumber	
+set nu rnu
 set wrap
 set linebreak
 set showmatch
