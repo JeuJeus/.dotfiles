@@ -114,8 +114,8 @@ source $ZSH/oh-my-zsh.sh
 
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias sshnas='ssh -i ~/.ssh/x380@nas jeujeus@192.168.178.5'
-alias sem4='cd ~/Documents/FHDW/Semester/Semester-4'
-alias chWal='wal --iterative -i ~/Pictures/Wallpaper'
+alias cdsem5='cd /home/jeujeus/Documents/FHDW/Semester/Semester-5'
+alias cdawe2='cd /home/jeujeus/Documents/FHDW/Semester/Semester-5/AWE2/awe2-wettersensoren'
 
 #export FZF_DEFAULT_OPTS='--height 60% --layout=reverse --border'
 export FZF_DEFAULT_OPTS="--layout=reverse --preview 'bat --style=numbers --color=always {} | head -500' --keep-right"
