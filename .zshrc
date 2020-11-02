@@ -74,7 +74,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git archlinux colored-man-pages copyfile git-auto-fetch safe-paste sudo auto-notify)
+plugins=(vi-mode git archlinux colored-man-pages copyfile git-auto-fetch safe-paste sudo auto-notify)
 
 # User configuration
 
@@ -112,10 +112,6 @@ source $ZSH/oh-my-zsh.sh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-# Key Bindings to Fix Home / End Key
-bindkey  "^[[H"   beginning-of-line
-bindkey  "^[[F"   end-of-line
-
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias sshnas='ssh -i ~/.ssh/x380@nas jeujeus@192.168.178.5'
 alias sem4='cd ~/Documents/FHDW/Semester/Semester-4'
@@ -125,5 +121,10 @@ alias chWal='wal --iterative -i ~/Pictures/Wallpaper'
 export FZF_DEFAULT_OPTS="--layout=reverse --preview 'bat --style=numbers --color=always {} | head -500' --keep-right"
 export FZF_DEFAULT_COMMAND='find .'
 
-#Add Z
-[[ -r /usr/share/z/z.sh ]] && source /usr/share/z/z.sh
+#br
+source /home/jeujeus/.config/broot/launcher/bash/br
+
+#nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
