@@ -6,7 +6,6 @@ set showmatch
 set visualbell	
 set laststatus=2
 set title
-syntax on
 
 set hlsearch
 set smartcase	
@@ -48,17 +47,20 @@ vnoremap <Left> <Nop>
 vnoremap <Right> <Nop>
 vnoremap <Up> <Nop>
 
-" requires vim-colorschemes aur package to be installed
+" requires vim-colorscheme joshdick/onedark in .vim/colors & .vim/autoload to be installed
+autocmd ColorScheme * highlight Normal ctermbg=NONE guibg=NONE
+let g:onedark_termcolors=256
+syntax on
 colorscheme onedark
 
 "VIM PLUGIN MANAGEMENT
 call plug#begin()
-Plug 'skywind3000/asyncrun.vim'
+Plug 'sheerun/vim-polyglot'
+Plug 'joshdick/onedark.vim'
 Plug 'preservim/NERDTree'
 Plug 'conornewton/vim-pandoc-markdown-preview'
 Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 Plug 'itchyny/lightline.vim'
-Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
 call plug#end()
 
 " NERDTree
@@ -70,7 +72,7 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 set noshowmode
 set cmdheight=1
 let g:lightline = {
-      \ 'colorscheme': 'jellybeans',
+      \ 'colorscheme': 'onedark',
       \ }
 
 " COC autocompletion
@@ -83,7 +85,7 @@ set nowritebackup
 
 " Having longer updatetime (default is 4000 ms = 4 s) leads to noticeable
 " delays and poor user experience.
-set updatetime=300
+set updatetime=100
 
 " Don't pass messages to |ins-completion-menu|.
 set shortmess+=c
