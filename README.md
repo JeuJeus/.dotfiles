@@ -9,7 +9,9 @@ In contrast to the master-branch, this one completly lacks the fancy ricing. No 
 - Bar: i3-status (default)
 - Terminal: Gnome-Terminal
 - Shell: ZSH (with Oh-My-ZSH , p10k, vi-mode)
-- Vim: Vim with vim-plug: nerdtree, coc, lightline, markdown+latex live preview
+- Vim: 
+    - Theme: neodark
+    - Plugins: nerdtree, coc, polyglot, lightline (neodark), markdown+latex live preview
 - FuzzyFinder: fzf
 - Application Runner: Rofi
 - Notifications: Dunst
@@ -27,7 +29,9 @@ In contrast to the master-branch, this one completly lacks the fancy ricing. No 
 - WM: Mutter
 - Terminal: Gnome-Terminal
 - Shell: ZSH (with Oh-My-ZSH , p10k, vi-mode)
-- Vim: Vim with vim-plug: nerdtree, coc, lightline, markdown+latex live preview
+- Vim: 
+    - Theme: neodark
+    - Plugins: nerdtree, coc, polyglot, lightline (neodark), markdown+latex live preview
 - FuzzyFinder: fzf
 - Login-/LockScreen: gdm
 - Clipboard Manager: qlipper
