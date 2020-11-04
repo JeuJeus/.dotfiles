@@ -1,6 +1,6 @@
 # .dotfiles
 The dotfiles used on my Arch installs. 
-In contrast to the master-branch, this one completly lacks the fancy ricing. No rice for the wicked!
+In contrast to the [master-branch](https://github.com/JeuJeus/.dotfiles/blob/master/README.md), this one completly lacks the fancy ricing. No rice for the wicked!
 
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 
