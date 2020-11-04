@@ -112,6 +112,7 @@ source $ZSH/oh-my-zsh.sh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+alias aya='yay'
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias sshnas='ssh -i ~/.ssh/x380@nas jeujeus@192.168.178.5'
 alias cdsem5='cd /home/jeujeus/Documents/FHDW/Semester/Semester-5'
