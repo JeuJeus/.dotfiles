@@ -16,9 +16,11 @@ In contrast to the master-branch, this one completly lacks the fancy ricing. No 
 - Application Runner: Rofi
 - Notifications: Dunst
 - Login-/LockScreen: LightDM
-- Clipboard Manager: glipper
+- Clipboard Manager: qlipper
 - File Sync: Syncthing (gtk)
 - File Manager: Nautilus / br
+- PDF-Viewer: Evince
+- LaTeX : Texstudio, Vim+Plugins, (Texmaker) (see my [beamertemplate](https://github.com/JeuJeus/latex-beamer-template-fhdw) as well as the forked university [papertemplate](https://github.com/JeuJeus/latex-thesis-template-fhdw)
 - Theming: Arc-Dark (Theme), Papirus (Icons), Hack + NF patched (Font+Icons)
 - Misc: unclutter (cursor hiding), fusuma (multitouch), Screenshots (gnome-screenshot)
 
@@ -37,6 +39,8 @@ In contrast to the master-branch, this one completly lacks the fancy ricing. No 
 - Clipboard Manager: qlipper
 - File Sync: Syncthing (gtk)
 - File Manager: Nautilus / br
+- PDF-Viewer: Evince
+- LaTeX : Texstudio, Vim+Plugins, (Texmaker) (see my [beamertemplate](https://github.com/JeuJeus/latex-beamer-template-fhdw) as well as the forked university [papertemplate](https://github.com/JeuJeus/latex-thesis-template-fhdw))
 - Theming: Arc-Dark (Theme+Shelltheme), Papirus (Icons), Hack + NF patched (Font+Icons)
 - Misc: Screenshots (gnome-screenshot)
 
