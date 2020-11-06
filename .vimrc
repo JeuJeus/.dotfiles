@@ -23,6 +23,7 @@ set ruler
 set undolevels=1000	
 set backspace=indent,eol,start
 
+" ##################################### HOTKEY MAPPING #####################################
 " Remove newbie crutches in Command Mode
 cnoremap <Down> <Nop>
 cnoremap <Left> <Nop>
@@ -47,13 +48,18 @@ vnoremap <Left> <Nop>
 vnoremap <Right> <Nop>
 vnoremap <Up> <Nop>
 
+" go trough tabs with ctrl+left/right
+nnoremap <C-Left> :tabprevious<CR>
+nnoremap <C-Right> :tabnext<CR>
+
+" ##################################### COLORSCHEME #####################################
 " requires vim-colorscheme joshdick/onedark in .vim/colors & .vim/autoload to be installed
 autocmd ColorScheme * highlight Normal ctermbg=NONE guibg=NONE
 let g:onedark_termcolors=256
 syntax on
 colorscheme onedark
 
-"VIM PLUGIN MANAGEMENT
+" ##################################### PLUGINS ##################################### 
 call plug#begin()
 Plug 'sheerun/vim-polyglot'
 Plug 'joshdick/onedark.vim'
@@ -63,20 +69,20 @@ Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 Plug 'itchyny/lightline.vim'
 call plug#end()
 
-" NERDTree
+" ##################################### NERDTREE SETTINGS #####################################
 autocmd StdinReadPre * let s:std=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std") | NERDTree | endif
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
-"LIGHTLINE 
+"##################################### NIGHTLINE ####################################
 set noshowmode
 set cmdheight=1
 let g:lightline = {
       \ 'colorscheme': 'onedark',
       \ }
 
-" COC autocompletion
-" " TextEdit might fail if hidden is not set.
+" ##################################### COC autocompletion ###################################### 
+ " TextEdit might fail if hidden is not set.
 set hidden
 
 " Some servers have issues with backup files, see #649.
@@ -229,5 +235,5 @@ nnoremap <silent><nowait> <space>s  :<C-u>CocList -I symbols<cr>
 nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>
 " Do default action for previous item.
 nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
-" Resume latest coc list.
+" Resume latest coc list. 
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
