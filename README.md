@@ -6,7 +6,7 @@ In contrast to the [master-branch](https://github.com/JeuJeus/.dotfiles/blob/mas
 
 ## Setup-mobile:
 - WM: i3-gaps
-- Bar: i3-status (default)
+- Bar: polybar
 - Terminal: Gnome-Terminal
 - Shell: ZSH (with Oh-My-ZSH , p10k, vi-mode)
 - Vim: 
