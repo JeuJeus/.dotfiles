@@ -202,6 +202,9 @@ bindsym Control+Mod1+k exec keepassxc
 bindsym Control+Mod1+f exec firefox
 bindsym Control+Mod1+p exec firefox -private-window
 
+# Open Telegram 
+bindsym Control+Mod1+t exec telegram-desktop
+
 # Open Nautilus
 bindsym Control+Mod1+e exec nautilus
 
