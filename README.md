@@ -19,7 +19,7 @@ In contrast to the [master-branch](https://github.com/JeuJeus/.dotfiles/blob/mas
 - Clipboard Manager: qlipper
 - File Sync: Syncthing (gtk)
 - File Manager: Nautilus / br
-- PDF-Viewer: Evince, zathura, pdfpc (presentations)
+- PDF-Viewer: Evince, zathura, pdfpc & pympress (presentations)
 - LaTeX : Texstudio, Vim+Plugins, LanguageTool (see my [beamer-template](https://github.com/JeuJeus/latex-beamer-template-fhdw) as well as the forked university [paper-template](https://github.com/JeuJeus/latex-thesis-template-fhdw))
 - Theming: Arc-Dark (Theme), Papirus (Icons), Hack + NF patched (Font+Icons)
 - Misc: unclutter (cursor hiding), fusuma (multitouch), Screenshots (gnome-screenshot)
@@ -39,7 +39,7 @@ In contrast to the [master-branch](https://github.com/JeuJeus/.dotfiles/blob/mas
 - Clipboard Manager: qlipper
 - File Sync: Syncthing (gtk)
 - File Manager: Nautilus / br
-- PDF-Viewer: Evince, zathura, pdfpc (presentations)
+- PDF-Viewer: Evince, zathura, pdfpc & pympress (presentations)
 - LaTeX : Texstudio, Vim+Plugins, LanguageTool (see my [beamer-template](https://github.com/JeuJeus/latex-beamer-template-fhdw) as well as the forked university [paper-template](https://github.com/JeuJeus/latex-thesis-template-fhdw))
 - Theming: Arc-Dark (Theme+Shelltheme), Papirus (Icons), Hack + NF patched (Font+Icons)
 - Misc: Screenshots (gnome-screenshot)
