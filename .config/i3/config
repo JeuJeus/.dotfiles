@@ -208,6 +208,9 @@ bindsym Control+Mod1+t exec telegram-desktop
 # Open Nautilus
 bindsym Control+Mod1+e exec nautilus
 
+# Open BR-root
+bindsym Control+Mod1+b exec gnome-terminal -e "broot"
+
 # Open FZF
 # find other hotkey - collides with intellij
 #bindsym Control+Mod1+z exec gnome-terminal -e "fzf --layout=reverse --preview 'bat --style=numbers --color=always {} | head -500' --keep-right"
