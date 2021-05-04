@@ -118,7 +118,7 @@ alias sshnas='ssh -i ~/.ssh/x380@nas jeujeus@192.168.178.5'
 alias cdsem5='cd /home/jeujeus/Documents/FHDW/Semester/Semester-5'
 alias cdawe2='cd /home/jeujeus/Documents/FHDW/Semester/Semester-5/AWE2/awe2-wettersensoren'
 alias cdue='cd /home/jeujeus/Documents/FHDW/Semester/Semester-5/UE/unternehmensethik-studienarbeit'
-alias cdba='cd /home/jeujeus/Documents/FHDW/Semester/Semester-6/Bachelorarbeit'
+alias cdba='cd /home/jeujeus/Documents/FHDW/Semester/Semester-6/bachelorarbeit'
 
 #export FZF_DEFAULT_OPTS='--height 60% --layout=reverse --border'
 export FZF_DEFAULT_OPTS="--layout=reverse --preview 'bat --style=numbers --color=always {} | head -500' --keep-right"
