@@ -188,6 +188,8 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+# Start copyq
+exec_always --no-startup-id copyq
 # Set copyq to always floating
 for_window [title="CopyQ"] floating enable
 
