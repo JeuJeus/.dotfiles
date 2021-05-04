@@ -19,9 +19,9 @@ In contrast to the [master-branch](https://github.com/JeuJeus/.dotfiles/blob/mas
 - Clipboard Manager: qlipper
 - File Sync: Syncthing (gtk)
 - File Manager: Nautilus / br
-- PDF-Viewer: Evince, zathura, pdfpc (presentations)
+- PDF-Viewer: Evince, zathura, pdfpc & pympress (presentations)
 - LaTeX : Texstudio, Vim+Plugins, LanguageTool (see my [beamer-template](https://github.com/JeuJeus/latex-beamer-template-fhdw) as well as the forked university [paper-template](https://github.com/JeuJeus/latex-thesis-template-fhdw))
-- Theming: Arc-Dark (Theme), Papirus (Icons), Hack + NF patched (Font+Icons)
+- Theming: Arc-Dark (Theme), Papirus (Icons), Hack + NF patched (Font+Icons) + Ligatures
 - Misc: unclutter (cursor hiding), fusuma (multitouch), Screenshots (gnome-screenshot)
 
 ![Screenshot](https://raw.githubusercontent.com/JeuJeus/.dotfiles/noRice/Screenshots/Screenshot%20from%202020-10-21%2015-39-02.png)
@@ -39,9 +39,9 @@ In contrast to the [master-branch](https://github.com/JeuJeus/.dotfiles/blob/mas
 - Clipboard Manager: qlipper
 - File Sync: Syncthing (gtk)
 - File Manager: Nautilus / br
-- PDF-Viewer: Evince, zathura, pdfpc (presentations)
+- PDF-Viewer: Evince, zathura, pdfpc & pympress (presentations)
 - LaTeX : Texstudio, Vim+Plugins, LanguageTool (see my [beamer-template](https://github.com/JeuJeus/latex-beamer-template-fhdw) as well as the forked university [paper-template](https://github.com/JeuJeus/latex-thesis-template-fhdw))
-- Theming: Arc-Dark (Theme+Shelltheme), Papirus (Icons), Hack + NF patched (Font+Icons)
+- Theming: Arc-Dark (Theme+Shelltheme), Papirus (Icons), Hack + NF patched (Font+Icons) + Ligatures
 - Misc: Screenshots (gnome-screenshot)
 
 ![Screenshot](https://raw.githubusercontent.com/JeuJeus/.dotfiles/noRice/Screenshots/Screenshot%20from%202020-10-22%2009-37-43.png)
