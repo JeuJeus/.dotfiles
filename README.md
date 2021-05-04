@@ -5,6 +5,7 @@ In contrast to the [master-branch](https://github.com/JeuJeus/.dotfiles/blob/mas
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 
 ## Setup-mobile:
+- Display-Manager: Xorg
 - WM: i3-gaps
 - Bar: polybar
 - Terminal: Gnome-Terminal
@@ -27,6 +28,7 @@ In contrast to the [master-branch](https://github.com/JeuJeus/.dotfiles/blob/mas
 ![Screenshot](https://raw.githubusercontent.com/JeuJeus/.dotfiles/noRice/Screenshots/Screenshot%20from%202021-05-04%2016-37-59.png)
 
 ## Setup-desktop:
+- Display-Manager: Wayland
 - DE: Gnome
 - WM: Mutter
 - Terminal: Gnome-Terminal
