@@ -16,7 +16,7 @@ In contrast to the [master-branch](https://github.com/JeuJeus/.dotfiles/blob/mas
 - Application Runner: Rofi
 - Notifications: Dunst
 - Login-/LockScreen: LightDM
-- Clipboard Manager: qlipper
+- Clipboard Manager: copyq
 - File Sync: Syncthing (gtk)
 - File Manager: Nautilus / br
 - PDF-Viewer: Evince, zathura, pdfpc & pympress (presentations)
@@ -24,7 +24,7 @@ In contrast to the [master-branch](https://github.com/JeuJeus/.dotfiles/blob/mas
 - Theming: Arc-Dark (Theme), Papirus (Icons), Hack + NF patched (Font+Icons) + Ligatures
 - Misc: unclutter (cursor hiding), fusuma (multitouch), Screenshots (gnome-screenshot)
 
-![Screenshot](https://raw.githubusercontent.com/JeuJeus/.dotfiles/noRice/Screenshots/Screenshot%20from%202020-10-21%2015-39-02.png)
+![Screenshot](https://raw.githubusercontent.com/JeuJeus/.dotfiles/noRice/Screenshots/Screenshot%20from%202021-05-04%2016-37-59.png)
 
 ## Setup-desktop:
 - DE: Gnome
