@@ -6,16 +6,26 @@
 exec "setxkbmap -layout de"
 
 # start Syncthing
-exec --no-startup-id syncthing-gtk
-
-# start qlipper - clipboarde
-exec --no-startup-id qlipper
+exec_always --no-startup-id syncthing-gtk
 
 # start unclutter - mouse cursor hiding
-exec --no-startup-id unclutter
+exec_always --no-startup-id unclutter
+
+# Start copyq
+exec_always --no-startup-id copyq
+# Set copyq to always floating
+for_window [title="CopyQ"] floating enable
+
+# start telegram-desktop in tray
+exec_always --no-startup-id telegram-desktop -startintray
+# start signal-desktop in tray
+exec_always --no-startup-id signal-desktop --start-in-tray
 
 # start fusuma / multitouch
 exec_always --no-startup-id sh -c "pkill fusuma; fusuma -d"
+
+# Start Polybar
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 set $mod Mod4
 
@@ -188,13 +198,6 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-# Start copyq
-exec_always --no-startup-id copyq
-# Set copyq to always floating
-for_window [title="CopyQ"] floating enable
-
-# Start Polybar
-exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # Screenshots
 # bindsym Print exec scrot '%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f ~/Pictures/'
