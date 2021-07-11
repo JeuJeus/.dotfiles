@@ -136,3 +136,6 @@ export NVM_DIR="$HOME/.nvm"
 bindkey  "^[[H"   beginning-of-line
 bindkey  "^[[F"   end-of-line
 bindkey  "^[[3~"  delete-char
+
+# needed for pip packages
+export PATH="$HOME/.local/bin:$PATH"
