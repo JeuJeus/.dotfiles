@@ -74,7 +74,10 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git archlinux colored-man-pages copyfile git-auto-fetch safe-paste sudo auto-notify)
+plugins=(git archlinux colored-man-pages git-auto-fetch safe-paste sudo auto-notify zsh-autosuggestions)
+
+ZSH_AUTOSUGGEST_STRATEGY=(history completion)
+bindkey '^ ' autosuggest-accept
 
 # User configuration
 
