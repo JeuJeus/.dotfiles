@@ -25,6 +25,7 @@ In contrast to the [master-branch](https://github.com/JeuJeus/.dotfiles/blob/mas
 - LaTeX : Texstudio, Vim+Plugins, LanguageTool (see my [beamer-template](https://github.com/JeuJeus/latex-beamer-template-fhdw) as well as the forked university [paper-template](https://github.com/JeuJeus/latex-thesis-template-fhdw))
 - Theming: Arc-Dark (Theme), Papirus (Icons), Hack + NF patched (Font+Icons) + Ligatures
 - Misc: unclutter (cursor hiding), fusuma (multitouch), Screenshots (gnome-screenshot)
+- Applications: native (pacman/yay) - still not loving [flatpak](https://flatkill.org/) / snap 
 
 ![Screenshot](https://raw.githubusercontent.com/JeuJeus/.dotfiles/noRice/Screenshots/Screenshot%20from%202021-05-04%2016-37-59.png)
 
@@ -48,6 +49,7 @@ In contrast to the [master-branch](https://github.com/JeuJeus/.dotfiles/blob/mas
 - Theming: Arc-Darker (Theme+Shelltheme), Papirus (Icons), Hack + NF patched (Font+Icons) + Ligatures
 - Gnome-Extensions: 'AppIndicator and KStatusNotifierItem Support' (Tray Icons), 'Arch Linux Updates Indicator', 'Auto Move Windows', 'Espresso' (keep Screen alive), gTile (tiling in gnome <3), 'Net speed simplified (current network up/down), 'No overview at start-up', 'NoAnnoyance v2', 'Removable Drive Menu', 'Replace Activities Text', 'Sound Input & Output Device Chooser', 'User Themes', 'Dash to Dock', 'Native Window Placement'
 - Misc: Screenshots (gnome-screenshot)
+- Applications: native (pacman/yay) - still not loving [flatpak](https://flatkill.org/) / snap 
 
 ![Screenshot](https://raw.githubusercontent.com/JeuJeus/.dotfiles/noRice/Screenshots/Screenshot%20from%202022-01-18%2008-23-39.png)
 
