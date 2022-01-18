@@ -65,4 +65,4 @@ In contrast to the [master-branch](https://github.com/JeuJeus/.dotfiles/blob/mas
 - Application Host : Docker (for own projects [exemplarily my weathersensors](https://github.com/JeuJeus/weathersensors) as well as Services like Jellyfin, PiHole etc.)
 - File Manager: br
 
-![Screenshot](https://raw.githubusercontent.com/JeuJeus/.dotfiles/noRice/Screenshots/Screenshot%20from%202021-05-04%2016-53-06.png)
+![Screenshot](https://raw.githubusercontent.com/JeuJeus/.dotfiles/1fedbcb93cf9c74129fb07eb3e8b252d56b3f4e1/Screenshots/Screenshot%20from%202022-01-18%2008-22-07.png)
