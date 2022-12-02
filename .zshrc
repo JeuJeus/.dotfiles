@@ -118,10 +118,20 @@ source $ZSH/oh-my-zsh.sh
 alias aya='yay'
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias sshnas='ssh -i ~/.ssh/x380@nas jeujeus@192.168.178.5'
-alias cdsem5='cd /home/jeujeus/Documents/FHDW/Semester/Semester-5'
-alias cdawe2='cd /home/jeujeus/Documents/FHDW/Semester/Semester-5/AWE2/awe2-wettersensoren'
-alias cdue='cd /home/jeujeus/Documents/FHDW/Semester/Semester-5/UE/unternehmensethik-studienarbeit'
-alias cdba='cd /home/jeujeus/Documents/FHDW/Semester/Semester-6/bachelorarbeit'
+alias cdsem3='cd /home/jeujeus/Documents/HS-Wismar/Semester/Semester-3'
+
+function removeWatermark(){
+  PDF=$1
+  WATERMARK='Julius Sebastian Figge'
+
+  pdftk "$PDF" output /tmp/uncompressed.pdf uncompress
+  sed -e "s/$WATERMARK/ /g" < /tmp/uncompressed.pdf > /tmp/unwatermarked.pdf
+  pdftk /tmp/unwatermarked.pdf output /tmp/fixed.pdf compress
+
+  mv /tmp/fixed.pdf "$PDF"
+  rm /tmp/uncompressed.pdf
+  rm /tmp/unwatermarked.pdf
+}
 
 #export FZF_DEFAULT_OPTS='--height 60% --layout=reverse --border'
 export FZF_DEFAULT_OPTS="--layout=reverse --preview 'bat --style=numbers --color=always {} | head -500' --keep-right"
@@ -142,3 +152,5 @@ bindkey  "^[[3~"  delete-char
 
 # needed for pip packages
 export PATH="$HOME/.local/bin:$PATH"
+
+alias open='xdg-open'
