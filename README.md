@@ -20,7 +20,7 @@ In contrast to the [master-branch](https://github.com/JeuJeus/.dotfiles/blob/mas
 - Login-/LockScreen: LightDM
 - Clipboard Manager: copyq
 - File Sync: Syncthing, rsync, freefilesync
-- File Manager: Nautilus / br
+- File Manager: Nemo (sine Nautilus went bad with Gnome 43) / br
 - PDF-Viewer: Evince, zathura, pdfpc & pympress (presentations)
 - LaTeX : Texstudio, Vim+Plugins, LanguageTool (see my [beamer-template](https://github.com/JeuJeus/latex-beamer-template-fhdw) as well as the forked university [paper-template](https://github.com/JeuJeus/latex-thesis-template-fhdw))
 - Theming: Arc-Dark (Theme), Papirus (Icons), Hack + NF patched (Font+Icons) + Ligatures
@@ -43,7 +43,7 @@ In contrast to the [master-branch](https://github.com/JeuJeus/.dotfiles/blob/mas
 - Login-/LockScreen: gdm
 - Clipboard Manager: copyq
 - File Sync: Syncthing, rsync, freefilesync
-- File Manager: Nautilus / br
+- File Manager: Nemo (sine Nautilus went bad with Gnome 43) / br
 - PDF-Viewer: Evince, zathura, pdfpc & pympress (presentations)
 - LaTeX : Texstudio, Vim+Plugins, LanguageTool (see my [beamer-template](https://github.com/JeuJeus/latex-beamer-template-fhdw) as well as the forked university [paper-template](https://github.com/JeuJeus/latex-thesis-template-fhdw))
 - Theming: Arc-Darker (Theme+Shelltheme), Papirus (Icons), Hack + NF patched (Font+Icons) + Ligatures
