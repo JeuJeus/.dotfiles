@@ -10,7 +10,7 @@ In contrast to the [master-branch](https://github.com/JeuJeus/.dotfiles/blob/mas
 - WM: i3-gaps
 - Bar: polybar
 - Terminal: Gnome-Terminal
-- Shell: ZSH (with Oh-My-ZSH , p10k, vi-mode, zsh-autosuggestions)
+- Shell: ZSH (with Oh-My-ZSH , p10k, vi-mode, zsh-autosuggestions, zsh-autocomplete)
 - Vim: 
     - Theme: neodark
     - Plugins: nerdtree, coc, polyglot, lightline (neodark), markdown+latex live preview
@@ -35,7 +35,7 @@ In contrast to the [master-branch](https://github.com/JeuJeus/.dotfiles/blob/mas
 - DE: Gnome
 - WM: Mutter
 - Terminal: Gnome-Terminal
-- Shell: ZSH (with Oh-My-ZSH , p10k, vi-mode, zsh-autosuggestions)
+- Shell: ZSH (with Oh-My-ZSH , p10k, vi-mode, zsh-autosuggestions, zsh-autocomplete)
 - Vim: 
     - Theme: neodark
     - Plugins: nerdtree, coc, polyglot, lightline (neodark), markdown+latex live preview
