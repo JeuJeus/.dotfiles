@@ -5,29 +5,27 @@ In contrast to the [master-branch](https://github.com/JeuJeus/.dotfiles/blob/mas
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 
 ## setup-mobile:
-- OS: Arch
+- OS: Ubuntu
 - Display-Server: Xorg
-- WM: i3-gaps
-- Bar: polybar
+- DE: Gnome
 - Terminal: Gnome-Terminal
 - Shell: ZSH (with Oh-My-ZSH , p10k, vi-mode, zsh-autosuggestions, zsh-autocomplete)
 - Vim: 
     - Theme: neodark
     - Plugins: nerdtree, coc, polyglot, lightline (neodark), markdown+latex live preview
 - FuzzyFinder: fzf
-- Application Runner: Rofi
-- Notifications: Dunst
-- Login-/LockScreen: LightDM
 - Clipboard Manager: copyq
-- File Sync: Syncthing, rsync, freefilesync
-- File Manager: Nemo (sine Nautilus went bad with Gnome 43) / br
+- File Sync: Syncthing, rsync, vorta/borg
+- File Manager: Nemo / br
 - PDF-Viewer: Evince, zathura, pdfpc & pympress (presentations)
-- LaTeX : Texstudio, Vim+Plugins, LanguageTool (see my [beamer-template](https://github.com/JeuJeus/latex-beamer-template-fhdw) as well as the forked university [paper-template](https://github.com/JeuJeus/latex-thesis-template-fhdw))
-- Theming: Arc-Dark (Theme), Papirus (Icons), Hack + NF patched (Font+Icons) + Ligatures
-- Misc: unclutter (cursor hiding), fusuma (multitouch), Screenshots (gnome-screenshot)
-- Applications: native (pacman/yay) - still not loving [flatpak](https://flatkill.org/) / snap 
+- LaTeX : Texstudio, Vim+Plugins, LanguageTool 
+- Font: Hack + NF patched (Font+Icons) + Ligatures
+- Gnome-Extensions: 'AppIndicator and KStatusNotifierItem Support' (Tray Icons), 'Espresso' (keep Screen alive), gTile (tiling in gnome <3), 'Net speed simplified (current network up/down), 'NoAnnoyance v2', 'Removable Drive Menu', 'Replace Activities Text', 'Sound Input & Output Device Chooser', 'User Themes', 'Dash to Dock', 'Native Window Placement'
+- Misc:  touchegg+fusuma (multitouch), Screenshots (gnome-screenshot)
+- Theming: none
+- Applications: native (apt) - still not loving [flatpak](https://flatkill.org/) / snap (unfortunatly ubuntu is enforcing snap by default)
 
-![Screenshot](https://raw.githubusercontent.com/JeuJeus/.dotfiles/noRice/Screenshots/Screenshot%20from%202021-05-04%2016-37-59.png)
+![Screenshot](https://github.com/JeuJeus/.dotfiles/blob/noRice/Screenshots/Screenshot%20from%202023-01-18%2017-00-58.png?raw=true)
 
 ## setup-desktop:
 - OS: Arch
@@ -45,8 +43,9 @@ In contrast to the [master-branch](https://github.com/JeuJeus/.dotfiles/blob/mas
 - File Sync: Syncthing, rsync, freefilesync
 - File Manager: Nemo (sine Nautilus went bad with Gnome 43) / br
 - PDF-Viewer: Evince, zathura, pdfpc & pympress (presentations)
-- LaTeX : Texstudio, Vim+Plugins, LanguageTool (see my [beamer-template](https://github.com/JeuJeus/latex-beamer-template-fhdw) as well as the forked university [paper-template](https://github.com/JeuJeus/latex-thesis-template-fhdw))
-- Theming: Arc-Darker (Theme+Shelltheme), Papirus (Icons), Hack + NF patched (Font+Icons) + Ligatures
+- LaTeX : Texstudio, Vim+Plugins, LanguageTool 
+- Theming: none 
+- Font: Papirus (Icons), Hack + NF patched (Font+Icons) + Ligatures
 - Gnome-Extensions: 'AppIndicator and KStatusNotifierItem Support' (Tray Icons), 'Arch Linux Updates Indicator', 'Auto Move Windows', 'Espresso' (keep Screen alive), gTile (tiling in gnome <3), 'Net speed simplified (current network up/down), 'No overview at start-up', 'NoAnnoyance v2', 'Removable Drive Menu', 'Replace Activities Text', 'Sound Input & Output Device Chooser', 'User Themes', 'Dash to Dock', 'Native Window Placement'
 - Misc: Screenshots (gnome-screenshot)
 - Applications: native (pacman/yay) - still not loving [flatpak](https://flatkill.org/) / snap 
