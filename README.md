@@ -28,29 +28,27 @@ In contrast to the [master-branch](https://github.com/JeuJeus/.dotfiles/blob/mas
 ![Screenshot](https://github.com/JeuJeus/.dotfiles/blob/noRice/Screenshots/Screenshot%20from%202023-01-18%2017-00-58.png?raw=true)
 
 ## setup-desktop:
-- OS: Arch
+- OS: Ubuntu
 - Display-Server: Xorg
 - DE: Gnome
-- WM: Mutter
 - Terminal: Gnome-Terminal
 - Shell: ZSH (with Oh-My-ZSH , p10k, vi-mode, zsh-autosuggestions, zsh-autocomplete)
 - Vim: 
     - Theme: neodark
     - Plugins: nerdtree, coc, polyglot, lightline (neodark), markdown+latex live preview
 - FuzzyFinder: fzf
-- Login-/LockScreen: gdm
 - Clipboard Manager: copyq
-- File Sync: Syncthing, rsync, freefilesync
+- File Sync: Syncthing, rsync, vorta/borg
 - File Manager: Nemo (sine Nautilus went bad with Gnome 43) / br
 - PDF-Viewer: Evince, zathura, pdfpc & pympress (presentations)
 - LaTeX : Texstudio, Vim+Plugins, LanguageTool 
 - Theming: none 
-- Font: Papirus (Icons), Hack + NF patched (Font+Icons) + Ligatures
-- Gnome-Extensions: 'AppIndicator and KStatusNotifierItem Support' (Tray Icons), 'Arch Linux Updates Indicator', 'Auto Move Windows', 'Espresso' (keep Screen alive), gTile (tiling in gnome <3), 'Net speed simplified (current network up/down), 'No overview at start-up', 'NoAnnoyance v2', 'Removable Drive Menu', 'Replace Activities Text', 'Sound Input & Output Device Chooser', 'User Themes', 'Dash to Dock', 'Native Window Placement'
+- Font: Hack + NF patched (Font+Icons) + Ligatures
+- Gnome-Extensions: 'AppIndicator and KStatusNotifierItem Support' (Tray Icons), 'Auto Move Windows', 'Espresso' (keep Screen alive), gTile (tiling in gnome <3), 'Net speed simplified (current network up/down), 'No overview at start-up', 'NoAnnoyance v2', 'Removable Drive Menu', 'Replace Activities Text', 'Sound Input & Output Device Chooser', 'User Themes', 'Dash to Dock', 'Native Window Placement'
 - Misc: Screenshots (gnome-screenshot)
-- Applications: native (pacman/yay) - still not loving [flatpak](https://flatkill.org/) / snap 
+- Applications: native (apt) - still not loving [flatpak](https://flatkill.org/) / snap (unfortunatly ubuntu is enforcing snap by default)
 
-![Screenshot](https://raw.githubusercontent.com/JeuJeus/.dotfiles/noRice/Screenshots/Screenshot%20from%202022-01-18%2008-23-39.png)
+![Screenshot](https://github.com/JeuJeus/.dotfiles/blob/58f82dc39f71b99f68d7207128f41c568a56c1fb/Screenshots/Screenshot%20from%202023-08-14%2021-15-45.png?raw=true)
 
 
 ## setup-server:
