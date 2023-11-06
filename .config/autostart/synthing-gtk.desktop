@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=syncthing-gtk
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=Syncthing GTK
+Name=Syncthing GTK
+Comment[en_US]=
+Comment=

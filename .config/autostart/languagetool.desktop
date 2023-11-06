@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=languagetool --tray
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=Languagetool
+Name=Languagetool
+Comment[en_US]=
+Comment=

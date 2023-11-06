@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=signal-desktop --use-tray-icon --start-in-tray
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=Signal
+Name=Signal
+Comment[en_US]=
+Comment=
