@@ -24,6 +24,9 @@ POWERLEVEL9K_DISABLE_CONFIGURATION_WIZARD=true
 #functions
 alias sshnas='ssh jeujeus@192.168.178.5'
 function commit { git add * ; git commit -m "$1" ; git push } 
+function open () {
+  xdg-open "$*" > /dev/null 2>&1
+}
 
 #nvm
 export NVM_DIR="$HOME/.nvm"
