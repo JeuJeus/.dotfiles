@@ -5,11 +5,12 @@ In contrast to the [master-branch](https://github.com/JeuJeus/.dotfiles/blob/mas
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 
 ## setup-mobile:
-- OS: Ubuntu
+- OS: Ubuntu LTS
 - Display-Server: Xorg
 - DE: Gnome
 - Terminal: Gnome-Terminal
 - Shell: ZSH (with Oh-My-ZSH , p10k, vi-mode, zsh-autosuggestions, zsh-autocomplete)
+- Filesystem: ZFS
 - Vim: 
     - Theme: neodark
     - Plugins: nerdtree, coc, polyglot, lightline (neodark), markdown+latex live preview
@@ -28,11 +29,12 @@ In contrast to the [master-branch](https://github.com/JeuJeus/.dotfiles/blob/mas
 ![Screenshot](https://github.com/JeuJeus/.dotfiles/blob/noRice/Screenshots/Screenshot%20from%202023-01-18%2017-00-58.png?raw=true)
 
 ## setup-desktop:
-- OS: Ubuntu
+- OS: Ubuntu LTS
 - Display-Server: Xorg
 - DE: Gnome
 - Terminal: Gnome-Terminal
 - Shell: ZSH (with Oh-My-ZSH , p10k, vi-mode, zsh-autosuggestions, zsh-autocomplete)
+- Filesystem: ZFS
 - Vim: 
     - Theme: neodark
     - Plugins: nerdtree, coc, polyglot, lightline (neodark), markdown+latex live preview
@@ -52,17 +54,18 @@ In contrast to the [master-branch](https://github.com/JeuJeus/.dotfiles/blob/mas
 
 
 ## setup-server:
-- OS: Debian stable (bullseye/11)
+- OS: Ubuntu LTS
 - Shell: ZSH (with Oh-My-ZSH , p10k, vi-mode, zsh-autosuggestions)
+- Filesystem: ZFS
 - Vim: 
     - Theme: neodark
     - Plugins: nerdtree, coc, polyglot, lightline (neodark)
 - FuzzyFinder: fzf
 - File Sync: Syncthing, rsync
 - File Distribution : Samba (SMB), Nextcloud (Cloud), Jellyfin (Streaming Service)
-- Management Interface: Portainer (Docker), OpenMediaVault
-- Service Surveilance: Changedetection (visual), uptime-kuma (ping,certs)
+- Management Interface: Portainer (Docker)
+- Service Surveilance: Changedetection (visual), uptime-kuma (ping,certs), Grafana Stack (Prometheus, Grafana, Alertmanager, cAdvisor, Node-Exporter)
 - Application Host : Docker (for own projects [exemplarily my weathersensors](https://github.com/JeuJeus/weathersensors) as well as Services like Jellyfin, PiHole etc.)
 - File Manager: br
 
-![Screenshot](https://raw.githubusercontent.com/JeuJeus/.dotfiles/1fedbcb93cf9c74129fb07eb3e8b252d56b3f4e1/Screenshots/Screenshot%20from%202022-01-18%2008-22-07.png)
+![Screenshot](https://github.com/JeuJeus/.dotfiles/blob/3d93114837a4d850a9c7fd70c2d401c9d1b75b8e/Screenshots/Screenshot%20from%202023-12-01%2015-25-01.png)
