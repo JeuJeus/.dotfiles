@@ -25,8 +25,9 @@ In contrast to the [master-branch](https://github.com/JeuJeus/.dotfiles/blob/mas
 - Misc:  touchegg+fusuma (multitouch), Screenshots (gnome-screenshot)
 - Theming: none
 - Applications: native (apt) - still not loving [flatpak](https://flatkill.org/) / snap (unfortunatly ubuntu is enforcing snap by default)
+- VPN: Wireguard to Router@Home, networkmanager, 'Wireguard Indicator' Gnome Extension
 
-![Screenshot](https://github.com/JeuJeus/.dotfiles/blob/noRice/Screenshots/Screenshot%20from%202023-01-18%2017-00-58.png?raw=true)
+![Screenshot](https://github.com/JeuJeus/.dotfiles/blob/12ebf69a2c439fb7030853cbd7c953623a6c3060/Screenshots/Screenshot%20from%202024-02-04%2011-51-42.png)
 
 ## setup-desktop:
 - OS: Ubuntu LTS
